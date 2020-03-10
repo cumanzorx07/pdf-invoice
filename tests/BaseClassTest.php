@@ -10,10 +10,10 @@
  */
 
 
-namespace Konekt\PdfInvoice\Tests;
+namespace Cumanzorx07\PdfInvoice\Tests;
 
 
-use Konekt\PdfInvoice\InvoicePrinter;
+use Cumanzorx07\PdfInvoice\InvoicePrinter;
 use PHPUnit\Framework\TestCase;
 
 class BaseClassTest extends TestCase

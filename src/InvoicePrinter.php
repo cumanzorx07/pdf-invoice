@@ -9,9 +9,11 @@
  *
  */
 
-namespace Konekt\PdfInvoice;
+namespace Cumanzorx07\PdfInvoice;
 
+use DateTimeZone;
 use FPDF;
+use Throwable;
 
 class InvoicePrinter extends FPDF
 {
@@ -151,7 +153,7 @@ class InvoicePrinter extends FPDF
     {
         try {
             new DateTimeZone($zone);
-        } catch (Exception $e) {
+        } catch (Throwable $e) {
             return false;
         }
 
