@@ -2,7 +2,7 @@
     $lang['number']   = 'Referencia';
     $lang['date']     = 'Fecha';
     $lang['due']      = 'Fecha de vencimiento';
-    $lang['time']     = 'Fecha';
+    $lang['time']     = 'Hora';
     $lang['to']       = 'Facturación a';
     $lang['from']     = 'Nuestra información ';
     $lang['product']  = 'Producto';
