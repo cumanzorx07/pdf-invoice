@@ -12,10 +12,9 @@
 namespace Cumanzorx07\PdfInvoice;
 
 use DateTimeZone;
-use FPDF;
 use Throwable;
 
-class InvoicePrinter extends FPDF
+class InvoicePrinter extends FPDFWrapper
 {
     const ICONV_CHARSET_INPUT = 'UTF-8';
     const ICONV_CHARSET_OUTPUT_A = 'ISO-8859-1//TRANSLIT';

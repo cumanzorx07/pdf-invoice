@@ -5,13 +5,13 @@
     "license": "GPL-2.0-or-later",
     "keywords": ["invoice", "pdf", "factura", "comprobante"],
     "require": {
-        "php": ">=5.6",
+        "php": ">=7.3",
         "ext-iconv": "*",
         "ext-mbstring": "*",
         "setasign/fpdf": "~1.8.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.0"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": { "Cumanzorx07\\PdfInvoice\\": "src/" }
